@@ -1,25 +1,17 @@
-# জমির হিসাব
+# LandShareCalculator
 
-Offline Android land ownership share calculator.
+Educational Android app for learning traditional Bengali land-share units.
 
-Privacy design:
+Final UI and calculation rules:
+- Ana selector: 1–15
+- Gonda selector: 1–19
+- Kora selector: 1–3
+- Kranti selector: 1–2
+- Til selector: 1–19
+- 16 ana = 1 whole
+- 20 gonda = 1 ana
+- 4 kora = 1 gonda
+- 3 kranti = 1 kora
+- 20 til = 1 kranti
 
-* No ads
-* No analytics
-* No Firebase
-* No tracking SDKs
-* No INTERNET permission
-* No location, contacts, camera, microphone or storage permissions
-* Calculations run locally on the device
-* App backup and device transfer are disabled
-
-Calculation structure used by the project:
-
-* 16 আনা = 1 whole share
-* 1 গণ্ডা = 2 শতাংশ
-* 1 কাঠা = 1.65 শতাংশ
-* 1 বিঘা = 33 শতাংশ
-* 1 একর = 100 শতাংশ
-* 1 গণ্ডা = 4 কড়া
-* 1 কড়া = 3 ক্রান্তি
-* 1 ক্রান্তি = 20 তিল
+The main UI uses Kalpurush Bengali font. Developer credit uses Android default Roboto.
